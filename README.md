@@ -32,7 +32,7 @@ npm run test
 
 - Website: https://nm28.ir
 - Github: [@M-Baghestani](https://github.com/M-Baghestani)
-- LinkedIn: [Click Here](https://linkedin.com/in/https://www.linkedin.com/in/mohammad-baghestani-4287a4365/)
+- LinkedIn: [Click Here](https://linkedin.com/in/https://www.linkedin.com/in/M-Baghestani/)
 
 ## 🤝 Contributing
 
