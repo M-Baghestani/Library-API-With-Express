@@ -36,7 +36,7 @@ npm run test
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/M-Baghestani/library-API-nodejs/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/M-Baghestani/Library-API-With-Express/issues).
 
 ## Show your support
 
