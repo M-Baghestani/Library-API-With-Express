@@ -1,0 +1,18 @@
+{
+  "name": "test-refactor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MhBaaghestani",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "fastest-validator": "^1.19.1",
+    "mongoose": "^8.19.2",
+    "nodemon": "^3.1.10"
+  }
+}
