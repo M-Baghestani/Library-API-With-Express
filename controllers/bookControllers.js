@@ -8,7 +8,7 @@ exports.getBooks = async (req, res) => {
 
 exports.getBookById = async (req, res) => {
 	try {
-		const bookInfo = await Book.findById(req.params.id);
+		const bookInfo = await Book.findById({ _id: req.params.id }, "-_id");
 		if (!bookInfo)
 			return res.status(404).json({ message: "The Book Not Found!" });
 		res.json(bookInfo);
@@ -31,7 +31,7 @@ exports.updateBook = async (req, res) => {
 
 	for (const key of allowedFields) {
 		if (updates[key] !== undefined) {
-			filteredUpdates[key] = updates[keys];
+			filteredUpdates[key] = updates[key];
 		}
 	}
 	const book = await Book.findByIdAndUpdate(bookId, filteredUpdates, {
